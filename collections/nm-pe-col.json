@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "a3acc766-dbca-46cb-ae3d-6a5706d64ebd",
+		"name": "Newman-env-example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/response-headers?foo1=bar1&foo2=bar2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"response-headers"
+					],
+					"query": [
+						{
+							"key": "foo1",
+							"value": "bar1"
+						},
+						{
+							"key": "foo2",
+							"value": "bar2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
